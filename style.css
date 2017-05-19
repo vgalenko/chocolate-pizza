@@ -6,5 +6,45 @@ main {
   margin-top: 50px;
 }
 
-header {
+header #logo {
+  float: left;
+  padding-right: 5px;
+}
+
+.delicious_heading h1 {
+  font-family: Brush Script MT;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #333333;
+}
+
+.delicious_heading p {
+  font-size: 12px;
+  color: gray;
+  font-family: Avenir Next;
+}
+
+.social_logos ul li{
+  display: inline-block;
+  float: right;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 38px;
+  font-family: Avenir Next Condensed;
+}
+
+.title p {
+  font-family: Avenir Next;
+  font-size: 12px;
+  color: gray;
+}
+
+#printer {
+  float: right;
 }
