@@ -16,13 +16,16 @@ header #logo {
   font-size: 42px;
   font-weight: bolder;
   color: #333333;
+  letter-spacing: 1px;
 }
 
 .delicious_heading p {
-  font-size: 16px;
+  font-size: 18px;
   color: #B1B1B1;
   font-family: Myriad Arabic;
   padding-bottom: 30px;
+  letter-spacing: -1px;
+  line-height: .3;
 }
 
 .social_logos ul li {
@@ -78,7 +81,7 @@ h2 {
   display: inline-block;
   color: #B1B1B1;
   font-family: Myriad Arabic;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .pizza_img {
@@ -102,7 +105,7 @@ h2 {
 
 .ingredients {
   position: absolute;
-  top: 1270px;
+  top: 1260px;
   left: 350px;
   clear: left;
   font-family: Avenir Next;
@@ -115,7 +118,7 @@ h2 {
 
 .ingredients2 {
   position: absolute;
-  top: 1270px;
+  top: 1260px;
   left: 700px;
   clear: left;
   font-family: Avenir Next;
@@ -140,5 +143,47 @@ h2 {
 }
 
 .venessa_img {
-  padding-top: 15px;
+  margin-top: 20px;
+  float: left;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+.name h6 {
+  margin-top: 25px;
+  font-weight: bold;
+  font-family: halvetica;
+  font-size: 22px;
+  color: #333333;
+}
+
+.name p {
+  font-family: halverica;
+  font-size: 20px;
+  color: #767676;
+}
+
+.button {
+  position: absolute;
+  left: 990px;
+  top: 1600px;;
+  height: 50px;
+  width: 180px;
+  border: 1px solid #BA745C;
+  background: #BA745C;
+}
+
+footer {
+  float: left;
+  margin-left: 230px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 120%;
+  font-size: 18px;
+  color: #B1B1B1;
+  font-family: halvetica;
+}
+
+hr {
+  position: relative;
 }
